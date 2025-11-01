@@ -101,4 +101,20 @@ plt.xlabel('Size (1000 sqft)')
 plt.legend()
 plt.show()
 
+#As you can see, setting  𝑤=100  and  𝑏=100  does not result in a line that fits our data.
+#Challenge
+#Try experimenting with different values of  𝑤  and  𝑏 . What should the values be for a line that fits our data?
+#Tip:
+#You can use your mouse to click on the green "Hints" below to reveal some hints for choosing b and w.
+
+#w=200,b=100
+#Prediction
+#Now that we have a model, we can use it to make our original prediction. Let's predict the price of a house with 1200 sqft. Since the units of  𝑥  are in 1000's of sqft,  𝑥  is 1.2.
+
+w = 200                         
+b = 100    
+x_i = 1.2
+cost_1200sqft = w * x_i + b    
+
+print(f"${cost_1200sqft:.0f} thousand dollars")
 
