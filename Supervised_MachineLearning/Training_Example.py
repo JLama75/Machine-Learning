@@ -1,3 +1,9 @@
+#In this lab you have learned:
+#Linear regression builds a model which establishes a relationship between features and targets
+#In the example above, the feature was house size and the target was house price
+#for simple linear regression, the model has two parameters  𝑤  and  𝑏  whose values are 'fit' using training data.
+#once a model's parameters have been determined, the model can be used to make predictions on novel data.
+
 import numpy as np
 import matplotlib.pyplot as plt
 plt.style.use('./deeplearning.mplstyle')
